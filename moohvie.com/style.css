@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+.headerText{
+    color: white;
+    text-align: center;
+}
+
+.parameters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.parentStreamingBox{
+    display: inherit;
+    flex-direction: column;
+    margin-right: 3%;
+    border: black solid 1px;
+    padding: 3%;
+}
+
+.streamingBox{
+    display: inherit;
+    flex-direction: row;
+}
+
+.serviceLogo{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.checkbox{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.parameterHeader {
+    border-bottom: solid black 1px;
+    text-align: center;
+}
+
+.parentGenreBox{
+    display: inherit;
+    flex-direction: column;
+    margin-right: 3%;
+    border: black solid 1px;
+    padding: 3%;
+}
+
+.genreBox{
+    display: inherit;
+    flex-direction: row;
+}
+
+.parantYearBox{
+    display: inherit;
+    flex-direction: column;
+    margin-right: 3%;
+    border: black solid 1px;
+    padding: 3%;
+}
+
+.yearBox{
+    display: inherit;
+    flex-direction: row;
+}
+
+.parentRatingBox{
+    display: inherit;
+    flex-direction: column;
+    border: black solid 1px;
+    padding: 3%;
+}
+
+.ratingBox{
+    display: inherit;
+    flex-direction: row;
+}
+
+.star{
+    color: yellow;
+    margin-top: 7%;
+}
+
+.divider{
+    display: inherit;
+    flex-direction: row;
+}
+
+.subDivider{
+    display: inherit;
+    flex-direction: column;
+}
