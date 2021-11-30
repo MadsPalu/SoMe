@@ -215,6 +215,53 @@ width: 50%;
 
 }
 
+.center{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  width:90%;
+  border-radius:15px;
+}
+
+.headlinemerch{
+  font-size: 50px;
+  font-size:30;
+  text-align: center;
+  color: #F3EFE0;
+}
+.merchbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.subbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.allmerch{
+  width:30%;
+  padding:5px;
+  margin-right: 20px;
+  margin-bottom:20px;
+  text-align: center;
+  color:#F3EFE0;
+  font-size: 30px;
+}
+.buylink{
+  width:23%;
+  padding:6px 20px 6px 20px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:50px;
+  text-align: center;
+  font-size: 30px;
+  color:#F3EFE0;
+  border: solid rgb(0, 0, 0) 2px;
+  background-color: rgb(68, 45, 45);
+}
 
 @media all and (max-width: 850px) {
 
@@ -351,5 +398,11 @@ width: 50%;
     padding: 3%;
 
   }
+
+  .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .buylink{
+        font-size: 17px;
+    }
 
 }
