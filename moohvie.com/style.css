@@ -61,6 +61,7 @@ header{
   background-color: #7d0c13;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 3%;
   border-radius: 15px;
 }
 
@@ -372,16 +373,13 @@ width: 50%;
 
 @media all and (max-width: 850px) {
 
-    body{
-        margin: 0;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-image: url(cottonbro.jpg);
-        background-size: 370px 812px;
-    }    
-
     .contentbox {
       display: flex;
       flex-direction: column;
+    }
+
+    .generalheader{
+      width: 100%;
     }
 
     .leftcontent {
@@ -393,11 +391,6 @@ width: 50%;
       margin-right: 0%;
       width: auto;
       }
-
-
-    .generalheader{
-      display: none;
-    }
    
     .headline {
       display: none;
