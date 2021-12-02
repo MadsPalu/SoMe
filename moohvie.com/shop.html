@@ -8,46 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/fa1bb5de68.js"></script>
     <title>Document</title>
+    <style>
+        body{background-image: url("billingbg.jpg");
+        background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
     <section class="generalheader">
         <a class="navbutton" href="index.html">Home</a>
-        <a class="navbutton" href="profil.html">My Profile</a>
+        <a class="navbutton" href="profil.html">Watchlist</a>
         <a class="navbutton" href="merch.html">Shop</a>
         <a class="navbutton" href="forums.html">Forums</a>
     </section>
     
     <section class="billingBox">
         <div class="billingInfoBox">
-            <h3 class="billingTitle">Billing Info</h2>
-                <label for="name" class="billingLabel"><i class="fa fa-user"></i>Full Name</label>
+            <h3 class="billingTitle">Billing Info</h3>
+                <p class="billingLabel"><i class="fa fa-user"></i>Full Name</p>
                 <input type="text" class="billingInput" placeholder="John Doe">
-                <label for="email" class="billingLabel"><i class="fa fa-envelope"></i>Mail</label>
+                <p class="billingLabel"><i class="fa fa-envelope"></i>Mail</p>
                 <input type="text" class="billingInput" placeholder="john@example.com">
-                <label for="adress" class="billingLabel"><i class="fa fa-building"></i>Address</label>
+                <p class="billingLabel"><i class="fa fa-building"></i>Address</p>
                 <input type="text" class="billingInput" placeholder="Somewhere Street 7">
-                <label for="City" class="billingLabel"><i class="fa fa-map-o" aria-hidden="true"></i>City</label>
+                <p class="billingLabel"><i class="fa fa-map-o" aria-hidden="true"></i>City</p>
                 <input type="text" class="billingInput" placeholder="Copenhagen">
         </div>
 
         <div class="billingInfoBox">
-            <h3 class="billingTitle">Card Info</h2>
-                <label for="" class="billingLabel">Name on card</label>
+            <h3 class="billingTitle">Card Info</h3>
+                <p class="billingLabel">Name on card</p>
                 <input type="text" class="billingInput" placeholder="John Doe">
-                <label for="" class="billingLabel">Card number</label>
+                <p class="billingLabel">Card number</p>
                 <input type="text" class="billingInput" placeholder="1111-1111-1111">
-                <label for="" class="billingLabel">Expiry date</label>
+                <p class="billingLabel">Expiry date</p>
                 <input type="text" class="billingInput" placeholder="1-1-2022">
-                <label for="" class="billingLabel">CVV</label>
+                <p class="billingLabel">CVV</p>
                 <input type="text" class="billingInput" placeholder="111">
                 <button id="buyButton" onclick="buy()">Buy</button>
         </div>
     </section>
 </body>
-<style>
-    body{background-image: url("billingbg.jpg");
-    background-size: cover;
-    }
-</style>
 </html>
